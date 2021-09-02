@@ -4,6 +4,7 @@ project(jenkinsexample)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
+set(CMAKE_PREFIX_PATH /usr/local/Qt-5.15.0/lib/cmake/Qt5)
 
 set(CMAKE_CXX_STANDARD 11)
 
