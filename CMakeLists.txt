@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 project(jenkinsexample)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
-set(CMAKE_AUTOMOC ON)
+
 set(CMAKE_AUTORCC ON)
 set(CMAKE_PREFIX_PATH /usr/local/Qt-5.15.0/lib/cmake/Qt5)
 find_package(Catch2 QUIET)
